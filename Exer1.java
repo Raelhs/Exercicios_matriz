@@ -1,3 +1,12 @@
+//Crie uma matriz com 12 linhas e 2 colunas
+//A primeira coluna corresponde aos meses do ano
+//A segunda corresponde ao lucro que a loja teve no mês.
+
+//Imprima o seu resultado no formato:
+//No mês 1 a loja teve 2000 de lucro
+//No mês 2 a loja teve 1500 de lucro...
+
+
 package exercicios_matriz;
 
 public class Exer1 {
@@ -34,7 +43,7 @@ public class Exer1 {
 		matrizLucro[11][1] = 3200;
 
 		for (int i = 0; i < matrizLucro.length; i++) {
-			System.out.println("No m�s " + matrizLucro[i][0] + " a loja teve " + matrizLucro[i][1] + " de lucro");
+			System.out.println("No mês " + matrizLucro[i][0] + " a loja teve " + matrizLucro[i][1] + " de lucro");
 		}
 	}
 }
